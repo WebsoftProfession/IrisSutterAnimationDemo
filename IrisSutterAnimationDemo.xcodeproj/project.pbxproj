@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		608832C51D366CD900704DCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 608832C41D366CD900704DCC /* main.m */; };
+		608832C81D366CD900704DCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 608832C71D366CD900704DCC /* AppDelegate.m */; };
+		608832CB1D366CD900704DCC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 608832CA1D366CD900704DCC /* ViewController.m */; };
+		608832CE1D366CD900704DCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 608832CC1D366CD900704DCC /* Main.storyboard */; };
+		608832D11D366CD900704DCC /* IrisSutterAnimationDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 608832CF1D366CD900704DCC /* IrisSutterAnimationDemo.xcdatamodeld */; };
+		608832D31D366CD900704DCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 608832D21D366CD900704DCC /* Assets.xcassets */; };
+		608832D61D366CD900704DCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 608832D41D366CD900704DCC /* LaunchScreen.storyboard */; };
+		608832E11D366CDA00704DCC /* IrisSutterAnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 608832E01D366CDA00704DCC /* IrisSutterAnimationDemoTests.m */; };
+		608832EC1D366CDA00704DCC /* IrisSutterAnimationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 608832EB1D366CDA00704DCC /* IrisSutterAnimationDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		608832DD1D366CD900704DCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 608832B81D366CD900704DCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 608832BF1D366CD900704DCC;
+			remoteInfo = IrisSutterAnimationDemo;
+		};
+		608832E81D366CDA00704DCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 608832B81D366CD900704DCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 608832BF1D366CD900704DCC;
+			remoteInfo = IrisSutterAnimationDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		608832C01D366CD900704DCC /* IrisSutterAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IrisSutterAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		608832C41D366CD900704DCC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		608832C61D366CD900704DCC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		608832C71D366CD900704DCC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		608832C91D366CD900704DCC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		608832CA1D366CD900704DCC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		608832CD1D366CD900704DCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		608832D01D366CD900704DCC /* IrisSutterAnimationDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IrisSutterAnimationDemo.xcdatamodel; sourceTree = "<group>"; };
+		608832D21D366CD900704DCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		608832D51D366CD900704DCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		608832D71D366CD900704DCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		608832DC1D366CD900704DCC /* IrisSutterAnimationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IrisSutterAnimationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		608832E01D366CDA00704DCC /* IrisSutterAnimationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IrisSutterAnimationDemoTests.m; sourceTree = "<group>"; };
+		608832E21D366CDA00704DCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		608832E71D366CDA00704DCC /* IrisSutterAnimationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IrisSutterAnimationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		608832EB1D366CDA00704DCC /* IrisSutterAnimationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IrisSutterAnimationDemoUITests.m; sourceTree = "<group>"; };
+		608832ED1D366CDA00704DCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		608832BD1D366CD900704DCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		608832D91D366CD900704DCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		608832E41D366CDA00704DCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		608832B71D366CD900704DCC = {
+			isa = PBXGroup;
+			children = (
+				608832C21D366CD900704DCC /* IrisSutterAnimationDemo */,
+				608832DF1D366CD900704DCC /* IrisSutterAnimationDemoTests */,
+				608832EA1D366CDA00704DCC /* IrisSutterAnimationDemoUITests */,
+				608832C11D366CD900704DCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		608832C11D366CD900704DCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				608832C01D366CD900704DCC /* IrisSutterAnimationDemo.app */,
+				608832DC1D366CD900704DCC /* IrisSutterAnimationDemoTests.xctest */,
+				608832E71D366CDA00704DCC /* IrisSutterAnimationDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		608832C21D366CD900704DCC /* IrisSutterAnimationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				608832C61D366CD900704DCC /* AppDelegate.h */,
+				608832C71D366CD900704DCC /* AppDelegate.m */,
+				608832C91D366CD900704DCC /* ViewController.h */,
+				608832CA1D366CD900704DCC /* ViewController.m */,
+				608832CC1D366CD900704DCC /* Main.storyboard */,
+				608832D21D366CD900704DCC /* Assets.xcassets */,
+				608832D41D366CD900704DCC /* LaunchScreen.storyboard */,
+				608832D71D366CD900704DCC /* Info.plist */,
+				608832CF1D366CD900704DCC /* IrisSutterAnimationDemo.xcdatamodeld */,
+				608832C31D366CD900704DCC /* Supporting Files */,
+			);
+			path = IrisSutterAnimationDemo;
+			sourceTree = "<group>";
+		};
+		608832C31D366CD900704DCC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				608832C41D366CD900704DCC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		608832DF1D366CD900704DCC /* IrisSutterAnimationDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				608832E01D366CDA00704DCC /* IrisSutterAnimationDemoTests.m */,
+				608832E21D366CDA00704DCC /* Info.plist */,
+			);
+			path = IrisSutterAnimationDemoTests;
+			sourceTree = "<group>";
+		};
+		608832EA1D366CDA00704DCC /* IrisSutterAnimationDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				608832EB1D366CDA00704DCC /* IrisSutterAnimationDemoUITests.m */,
+				608832ED1D366CDA00704DCC /* Info.plist */,
+			);
+			path = IrisSutterAnimationDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		608832BF1D366CD900704DCC /* IrisSutterAnimationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 608832F01D366CDA00704DCC /* Build configuration list for PBXNativeTarget "IrisSutterAnimationDemo" */;
+			buildPhases = (
+				608832BC1D366CD900704DCC /* Sources */,
+				608832BD1D366CD900704DCC /* Frameworks */,
+				608832BE1D366CD900704DCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IrisSutterAnimationDemo;
+			productName = IrisSutterAnimationDemo;
+			productReference = 608832C01D366CD900704DCC /* IrisSutterAnimationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		608832DB1D366CD900704DCC /* IrisSutterAnimationDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 608832F31D366CDA00704DCC /* Build configuration list for PBXNativeTarget "IrisSutterAnimationDemoTests" */;
+			buildPhases = (
+				608832D81D366CD900704DCC /* Sources */,
+				608832D91D366CD900704DCC /* Frameworks */,
+				608832DA1D366CD900704DCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				608832DE1D366CD900704DCC /* PBXTargetDependency */,
+			);
+			name = IrisSutterAnimationDemoTests;
+			productName = IrisSutterAnimationDemoTests;
+			productReference = 608832DC1D366CD900704DCC /* IrisSutterAnimationDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		608832E61D366CDA00704DCC /* IrisSutterAnimationDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 608832F61D366CDA00704DCC /* Build configuration list for PBXNativeTarget "IrisSutterAnimationDemoUITests" */;
+			buildPhases = (
+				608832E31D366CDA00704DCC /* Sources */,
+				608832E41D366CDA00704DCC /* Frameworks */,
+				608832E51D366CDA00704DCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				608832E91D366CDA00704DCC /* PBXTargetDependency */,
+			);
+			name = IrisSutterAnimationDemoUITests;
+			productName = IrisSutterAnimationDemoUITests;
+			productReference = 608832E71D366CDA00704DCC /* IrisSutterAnimationDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		608832B81D366CD900704DCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Dotsquares;
+				TargetAttributes = {
+					608832BF1D366CD900704DCC = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					608832DB1D366CD900704DCC = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 608832BF1D366CD900704DCC;
+					};
+					608832E61D366CDA00704DCC = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 608832BF1D366CD900704DCC;
+					};
+				};
+			};
+			buildConfigurationList = 608832BB1D366CD900704DCC /* Build configuration list for PBXProject "IrisSutterAnimationDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 608832B71D366CD900704DCC;
+			productRefGroup = 608832C11D366CD900704DCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				608832BF1D366CD900704DCC /* IrisSutterAnimationDemo */,
+				608832DB1D366CD900704DCC /* IrisSutterAnimationDemoTests */,
+				608832E61D366CDA00704DCC /* IrisSutterAnimationDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		608832BE1D366CD900704DCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				608832D61D366CD900704DCC /* LaunchScreen.storyboard in Resources */,
+				608832D31D366CD900704DCC /* Assets.xcassets in Resources */,
+				608832CE1D366CD900704DCC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		608832DA1D366CD900704DCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		608832E51D366CDA00704DCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		608832BC1D366CD900704DCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				608832CB1D366CD900704DCC /* ViewController.m in Sources */,
+				608832C81D366CD900704DCC /* AppDelegate.m in Sources */,
+				608832C51D366CD900704DCC /* main.m in Sources */,
+				608832D11D366CD900704DCC /* IrisSutterAnimationDemo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		608832D81D366CD900704DCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				608832E11D366CDA00704DCC /* IrisSutterAnimationDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		608832E31D366CDA00704DCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				608832EC1D366CDA00704DCC /* IrisSutterAnimationDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		608832DE1D366CD900704DCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 608832BF1D366CD900704DCC /* IrisSutterAnimationDemo */;
+			targetProxy = 608832DD1D366CD900704DCC /* PBXContainerItemProxy */;
+		};
+		608832E91D366CDA00704DCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 608832BF1D366CD900704DCC /* IrisSutterAnimationDemo */;
+			targetProxy = 608832E81D366CDA00704DCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		608832CC1D366CD900704DCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				608832CD1D366CD900704DCC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		608832D41D366CD900704DCC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				608832D51D366CD900704DCC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		608832EE1D366CDA00704DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		608832EF1D366CDA00704DCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		608832F11D366CDA00704DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IrisSutterAnimationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TD.IrisSutterAnimationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		608832F21D366CDA00704DCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IrisSutterAnimationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TD.IrisSutterAnimationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		608832F41D366CDA00704DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IrisSutterAnimationDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TD.IrisSutterAnimationDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IrisSutterAnimationDemo.app/IrisSutterAnimationDemo";
+			};
+			name = Debug;
+		};
+		608832F51D366CDA00704DCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IrisSutterAnimationDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TD.IrisSutterAnimationDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IrisSutterAnimationDemo.app/IrisSutterAnimationDemo";
+			};
+			name = Release;
+		};
+		608832F71D366CDA00704DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IrisSutterAnimationDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TD.IrisSutterAnimationDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IrisSutterAnimationDemo;
+			};
+			name = Debug;
+		};
+		608832F81D366CDA00704DCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IrisSutterAnimationDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TD.IrisSutterAnimationDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IrisSutterAnimationDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		608832BB1D366CD900704DCC /* Build configuration list for PBXProject "IrisSutterAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				608832EE1D366CDA00704DCC /* Debug */,
+				608832EF1D366CDA00704DCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		608832F01D366CDA00704DCC /* Build configuration list for PBXNativeTarget "IrisSutterAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				608832F11D366CDA00704DCC /* Debug */,
+				608832F21D366CDA00704DCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		608832F31D366CDA00704DCC /* Build configuration list for PBXNativeTarget "IrisSutterAnimationDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				608832F41D366CDA00704DCC /* Debug */,
+				608832F51D366CDA00704DCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		608832F61D366CDA00704DCC /* Build configuration list for PBXNativeTarget "IrisSutterAnimationDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				608832F71D366CDA00704DCC /* Debug */,
+				608832F81D366CDA00704DCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		608832CF1D366CD900704DCC /* IrisSutterAnimationDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				608832D01D366CD900704DCC /* IrisSutterAnimationDemo.xcdatamodel */,
+			);
+			currentVersion = 608832D01D366CD900704DCC /* IrisSutterAnimationDemo.xcdatamodel */;
+			path = IrisSutterAnimationDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 608832B81D366CD900704DCC /* Project object */;
+}
