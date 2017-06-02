@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  IrisSutterAnimationDemo
 //
-//  Created by Dotsquares on 7/13/16.
-//  Copyright © 2016 Dotsquares. All rights reserved.
+//  Created by WebsoftProfession on 7/13/16.
+//   WebsoftProfession. All rights reserved.
 //
 
 #import "AppDelegate.h"

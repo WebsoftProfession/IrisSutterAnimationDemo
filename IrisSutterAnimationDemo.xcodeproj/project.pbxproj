@@ -16,6 +16,9 @@
 		608832D61D366CD900704DCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 608832D41D366CD900704DCC /* LaunchScreen.storyboard */; };
 		608832E11D366CDA00704DCC /* IrisSutterAnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 608832E01D366CDA00704DCC /* IrisSutterAnimationDemoTests.m */; };
 		608832EC1D366CDA00704DCC /* IrisSutterAnimationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 608832EB1D366CDA00704DCC /* IrisSutterAnimationDemoUITests.m */; };
+		608832FA1D366E0600704DCC /* first.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 608832F91D366E0600704DCC /* first.jpg */; };
+		608832FC1D366E3800704DCC /* second.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 608832FB1D366E3800704DCC /* second.jpg */; };
+		608832FE1D367CA400704DCC /* shutter.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 608832FD1D367CA400704DCC /* shutter.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		608832E71D366CDA00704DCC /* IrisSutterAnimationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IrisSutterAnimationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		608832EB1D366CDA00704DCC /* IrisSutterAnimationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IrisSutterAnimationDemoUITests.m; sourceTree = "<group>"; };
 		608832ED1D366CDA00704DCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		608832F91D366E0600704DCC /* first.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = first.jpg; sourceTree = "<group>"; };
+		608832FB1D366E3800704DCC /* second.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = second.jpg; sourceTree = "<group>"; };
+		608832FD1D367CA400704DCC /* shutter.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shutter.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 		608832C21D366CD900704DCC /* IrisSutterAnimationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				608832F91D366E0600704DCC /* first.jpg */,
+				608832FD1D367CA400704DCC /* shutter.jpeg */,
+				608832FB1D366E3800704DCC /* second.jpg */,
 				608832C61D366CD900704DCC /* AppDelegate.h */,
 				608832C71D366CD900704DCC /* AppDelegate.m */,
 				608832C91D366CD900704DCC /* ViewController.h */,
@@ -206,10 +215,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = Dotsquares;
+				ORGANIZATIONNAME = WebsoftProfession;
 				TargetAttributes = {
 					608832BF1D366CD900704DCC = {
 						CreatedOnToolsVersion = 7.3;
+						ProvisioningStyle = Manual;
 					};
 					608832DB1D366CD900704DCC = {
 						CreatedOnToolsVersion = 7.3;
@@ -246,9 +256,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				608832FC1D366E3800704DCC /* second.jpg in Resources */,
 				608832D61D366CD900704DCC /* LaunchScreen.storyboard in Resources */,
 				608832D31D366CD900704DCC /* Assets.xcassets in Resources */,
+				608832FE1D367CA400704DCC /* shutter.jpeg in Resources */,
 				608832CE1D366CD900704DCC /* Main.storyboard in Resources */,
+				608832FA1D366E0600704DCC /* first.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +432,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = IrisSutterAnimationDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TD.IrisSutterAnimationDemo;
@@ -430,6 +444,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = IrisSutterAnimationDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TD.IrisSutterAnimationDemo;
@@ -502,6 +517,7 @@
 				608832F21D366CDA00704DCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		608832F31D366CDA00704DCC /* Build configuration list for PBXNativeTarget "IrisSutterAnimationDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +526,7 @@
 				608832F51D366CDA00704DCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		608832F61D366CDA00704DCC /* Build configuration list for PBXNativeTarget "IrisSutterAnimationDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +535,7 @@
 				608832F81D366CDA00704DCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
